@@ -1,11 +1,19 @@
 # Docker installation for Debian12
 
-### requirements
+### Requirements
 
 Have sudo installed and add a user in the sudo group
 ```apt install sudo
 adduser <user> sudo
 ```
 
-run the script in sudo
-```sudo bash install_docker.sh``` or ```sudo ./install_docker.sh```
+### Run the script
+
+Now, you can run the script with command 'sudo'
+```
+sudo bash install_docker.sh
+```
+or
+```
+sudo ./install_docker.sh
+```
