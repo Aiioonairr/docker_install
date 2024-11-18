@@ -7,7 +7,13 @@ Have sudo installed and add a user in the sudo group
 adduser <user> sudo
 ```
 
-### Run the script
+### Run the script with one command
+
+```
+sudo bash -c "$(wget -qLO - https://raw.githubusercontent.com/Aiioonairr/docker_install/refs/heads/main/install_docker.sh)"
+```
+
+### Run the script mannualy
 
 Now, you can run the script with command 'sudo'
 ```
