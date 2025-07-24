@@ -7,13 +7,16 @@ Have sudo installed and add a user in the sudo group
 adduser <user> sudo
 ```
 
-### Run the script with one command (Recommanded)
+Two installation methods:  
+- In a single command line (1.)  
+- In multiple steps (2.)
+### 1. Run the script with one command (Recommanded)
 
 ```
 sudo bash -c "$(wget -qLO - https://raw.githubusercontent.com/Aiioonairr/docker_install/refs/heads/main/install_docker.sh)"
 ```
 
-### Run the script manually
+### 2. Run the script manually
 
 You must to download the script in a dir :
 
